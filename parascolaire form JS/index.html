@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/6996d94af3.js" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+    <title> Solicode activités para-scolaires</title>
+</head>
+<body>
+
+    <div class="tt">
+        <div class="form-box">
+            <div class="form-title"></div>
+            <div class="form-content">
+                
+                <form>
+
+                    <div>
+                        <h1> Solicode activités para-scolaires</h1>
+                    </div>
+
+                    <div class="personal-info">
+
+                        <div class="input-field">
+                            <span id="NomOutput"></span><br>
+                            <input type="text" id="Nom" placeholder="Nom de famille" onkeyup="NomCheck()">
+                        </div>
+
+                        <div class="input-field">
+                            <span id="PrenomOutput"></span><br>
+                            <input type="text" id="Prenom" placeholder="Prénom" onkeyup="PrenomCheck()">
+                        </div>
+
+                        <div class="input-field">
+                            <span id="emailOutput"></span><br>
+                            <input type="text" id="Email" placeholder="Email" onkeyup="emailCheck()">
+                        </div>
+
+                        <div class="input-field">
+                            <span id="telephoneOutput"></span><br>
+                            <input type="text" id="telephone" placeholder="Numéro de télephone" onkeyup="telephoneCheck()">
+                        </div>
+                        
+                
+                    </div>
+
+                    <div class="club-info">
+                        <div class="gender">
+                            <label for="homme"><i class="fa-sharp fa-solid fa-venus"></i></label>
+                            <input type="radio" id="man" name="gender">
+                            <label for="femme"><i class="fa-solid fa-mars"></i></label>
+                            <input type="radio" id="woman" name="gender">
+                        </div>
+
+                        <div class="groups">
+                            <h2> Les groupes :</h2>
+                            <div>
+                                <label for="101">DW101</label>
+                                <input type="radio" id="101" name="group">
+                                <label for="102">DW102</label>    
+                                <input type="radio" id="102" name="group">
+                                <label for="103">DW103</label>
+                                <input type="radio" id="103" name="group">
+                                <label for="104">DM101</label>
+                                <input type="radio" id="104" name="group">
+                                <label for="105">DM102</label>
+                                <input type="radio" id="105" name="group">
+                            </div>
+                        </div>
+
+                        <div class="clubs">
+                            <h2 >Les clubs :</h2>
+                            <select name="cl" id="cl">
+                              <option value="1">Informatique</option>
+                              <option value="2">Robotique</option>
+                              <option value="3">Jeu d'échec</option>
+                              <option value="4">Musique</option>
+                              <option value="5">Foot</option>
+                            <option value="6">Théatre</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div>
+                        <button onClick="redirect()">Rejoignez-nous</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
