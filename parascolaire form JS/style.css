@@ -7,7 +7,7 @@
 	font-family: 'Ubuntu', sans-serif;
 }
 
-/* container style */
+/* style du container */
 
 .tt{
 	position: relative;
@@ -46,7 +46,8 @@
 .form-content {
 	width: 100%;
 	height: 100%;
-	padding: 105px 5px;
+	margin: 5px 5px;
+	padding: 140px 5px;
 	background: #804cfa;
 	display: flex;
 }
